@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-Projeto de desafio de portifólio de desenvolvedor na Rocketseat.
+Projeto de desafio de portfólio de desenvolvedor na Rocketseat.
 </p>
 
 <p align="center">
