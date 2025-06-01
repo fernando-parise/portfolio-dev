@@ -25,6 +25,19 @@
     gap: 24px;
 }
 
+@media (max-width: 900px) {
+    #grid-services {
+        grid-template-columns: repeat(2, 1fr); /* Tablet */
+    }
+}
+
+@media (max-width: 600px) {
+    #grid-services {
+        grid-template-columns: 1fr; /* Celular */
+        gap: 16px;
+    }
+}
+
 .card-services{
     border: 2px solid var(--gray-200);
     border-radius: 12px;
