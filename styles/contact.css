@@ -1,0 +1,129 @@
+#contact{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/imagens/Background_Contacts.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    padding: 128px 120px;
+    gap: 48px;
+}
+
+#header-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3{
+        color: var(--purple);
+    }
+}
+
+#links-contact ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+
+    li{
+        width: 400px;
+        padding: 20px;
+        display: flex;
+        border: 2px solid var(--gray-300);
+        background-color: var(--gray-300);
+        border-radius: 8px;
+    
+        a{  
+
+
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            font: var(--text-md);
+            color: var(--gray-500);
+
+            #logo-linkedin{
+                display: inline-block;
+                background-image: url(../assets/icons/contact/LinkedinLogo.svg);
+                width: 32px;
+                height: 28px;
+            };
+
+            #logo-instagram{
+                display: inline-block;
+                background-image: url(../assets/icons/contact/InstagramLogo.svg);
+                width: 32px;
+                height: 28px;
+            };
+
+            #logo-github{
+                display: inline-block;
+                background-image: url(../assets/icons/contact/GithubLogo.svg);
+                width: 32px;
+                height: 28px;
+            };
+
+            #logo-email{
+                display: inline-block;
+                background-image: url(../assets/icons/contact/Vector.svg); 
+                width: 30px;
+                height: 18px;
+            };
+            
+            span:nth-child(2){
+                width: 100%;
+            }
+            
+
+        }
+
+        
+    }
+
+    li:hover:nth-child(1){
+        border: 2px solid var(--blue);
+        cursor: pointer;
+        #logo-linkedin:nth-child(1){
+            background-image:url(../assets/icons/contact/LinkedinLogoHover.svg);
+            width: 32px;
+            height: 28px;
+        }
+    }
+
+    li:hover:nth-child(2){
+        border: 2px solid var(--blue);
+        cursor: pointer;
+        #logo-instagram:nth-child(1){
+            background-image:url(../assets/icons/contact/InstagramLogoHover.svg);
+            width: 32px;
+            height: 28px;
+        }
+    }
+
+    li:hover:nth-child(3){
+        border: 2px solid var(--blue);
+        cursor: pointer;
+        #logo-github:nth-child(1){
+            background-image:url(../assets/icons/contact/GithubLogoHover.svg);
+            width: 32px;
+            height: 28px;
+        }
+    }
+
+    li:hover:nth-child(4){
+        border: 2px solid var(--blue);
+        cursor: pointer;
+        #logo-email:nth-child(1){
+            background-image:url(../assets/icons/contact/VectorHover.svg);
+            width: 30px;
+            height: 18px;
+        }
+    }
+}
+
+
+

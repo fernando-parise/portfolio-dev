@@ -1,0 +1,39 @@
+#services{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--gray-100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+}
+
+#header-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+#grid-services{
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    gap: 24px;
+}
+
+.card-services{
+    border: 2px solid var(--gray-200);
+    border-radius: 12px;
+    padding: 20px;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        p{
+            color: var(--gray-500);
+        }
+    }
+}
